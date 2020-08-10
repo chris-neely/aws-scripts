@@ -1,6 +1,6 @@
 # aws-scripts
 
-A small collection of aws administration scripts.
+A small collection of powershell aws administration scripts.
 
 ## aws workspaces
 
