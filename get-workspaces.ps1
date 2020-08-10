@@ -1,8 +1,6 @@
 ### Create a report of all workspaces in a specific AWS Region
 ### Download and install AWS Tools for Windows Powershell: https://aws.amazon.com/powershell/
 
-### Want to add Directory Frienldy Name, Tags asscoiated with instance
-
 $AWSAccessKey = ""
 $AWSSecretKey = ""
 $AWSSessionToken = ""
@@ -11,8 +9,6 @@ $reportPath = "d:\temp\aws-workspaces-report.csv"
 
 # Region workspaces are provisioned in
 $AWSRegion = "us-east-1"
-
-### Do not edit below this line
 
 # Create session with access keys
 Set-AWSCredential -AccessKey $AWSAccessKey -SecretKey $AWSSecretKey -SessionToken $AWSSessionToken
